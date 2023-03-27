@@ -1,0 +1,81 @@
+.parent1 {
+    display: flex;
+    flex-direction: row;
+    font-size: 100%;  
+    padding-left: 60px; 
+    padding-right: 130px;
+    padding-top: 10px;
+    background-color: black;
+    gap: 140px;
+}
+.parent {
+    display: flex;
+    flex-direction: row;
+    font-size: 100%;  
+    padding-left: 70px; 
+    padding-right: 120px;
+    padding-top: 10px;
+    background-color: black;
+    gap: 40px;
+}
+.item{
+    color: white;
+    height: 60px;
+    line-height: 50px;
+    text-align: left;
+    padding-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    } 
+.parent :hover{
+    color: rgb(8, 167, 175);
+}
+
+
+body{
+    background-color: white;
+}
+.second{
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+.kris{
+    padding-right: 60%;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.test{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    gap: 70%;
+    padding-left: 90px;
+    padding-right: 0px;
+    font-size: 80%;  
+    
+}
+.bag{
+    padding-left: 120px;
+    padding-right: 120px;
+}
+body{
+    margin: 0;
+}
+.h{
+    padding-top: 20px;
+}
+.tary{
+    display: flex;
+    flex-direction: row;
+}
+.ter{
+    background-color: rgb(231, 240, 246);
+    padding-right: 50%;
+    text-align: left;
+    font-size: 120%;
+}
+
