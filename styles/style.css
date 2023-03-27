@@ -45,7 +45,7 @@ a{
     padding-top: 20px;
     display: flex;
     flex-direction: row;
-    gap: 40px;
+    gap: 60px;
 }
 .test{
     background-color: black;
