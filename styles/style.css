@@ -52,7 +52,7 @@ a{
     display: flex;
     flex-direction: row;
     color: white;
-    gap: 70%;
+    gap: 100%;
     padding-left: 90px;
     padding-right: 0px;
     font-size: 80%;  
