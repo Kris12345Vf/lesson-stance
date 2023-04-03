@@ -1,81 +1,66 @@
-.parent1 {
-    display: flex;
-    flex-direction: row;
-    font-size: 100%;  
-    padding-left: 60px; 
-    padding-right: 130px;
-    padding-top: 10px;
-    background-color: black;
-    gap: 140px;
-}
-.parent {
-    display: flex;
-    flex-direction: row;
-    font-size: 100%;  
-    padding-left: 70px; 
-    padding-right: 120px;
-    padding-top: 10px;
-    background-color: black;
-    gap: 40px;
-}
-.item{
-    color: white;
-    height: 60px;
-    line-height: 50px;
-    text-align: left;
-    padding-top: 10px;
-    font-family: 'Times New Roman', Times, serif;
-    } 
-.parent :hover{
-    color: rgb(8, 167, 175);
-}
-
-
 body{
+    background-color: #f2f2f2;
+    height: auto;
+}
+.conteiner{
+    width: 85%;
+    display: flex;
+    margin: 0 auto;
     background-color: white;
-}
-.second{
-    text-decoration: none;
-}
-a{
-    text-decoration: none;
-}
-.kris{
-    padding-right: 60%;
-    padding-top: 20px;
-    display: flex;
-    flex-direction: row;
-    gap: 60px;
-}
-.test{
-    background-color: black;
-    display: flex;
-    flex-direction: row;
-    color: white;
-    gap: 100%;
-    padding-left: 90px;
-    padding-right: 0px;
-    font-size: 80%;  
-    
-}
-.bag{
-    padding-left: 120px;
-    padding-right: 120px;
-}
-body{
-    margin: 0;
-}
-.h{
-    padding-top: 20px;
-}
-.tary{
-    display: flex;
-    flex-direction: row;
-}
-.ter{
-    background-color: rgb(231, 240, 246);
-    padding-right: 50%;
-    text-align: left;
-    font-size: 120%;
+    height: 200px;
 }
 
+.header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    background-color: black;
+    width: 100%;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    background-color: #0f0f0f;
+    width: 100%;
+    gap: 170px;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    background-color: #161616;
+    width: 100%;
+    color: white;
+    gap: 40px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+.social-item{
+    height: 100%;
+    width: 50%;
+    color: white;
+    padding: 0 30px 0 30px;
+    line-height: 60px;
+}
+.submissions{
+    text-align: start;
+    text-transform: uppercase;
+}
+.social-items{
+    text-align: end;
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    justify-content: end;
+    text-transform: uppercase;
+}
+i{
+    margin-right: 10px;
+}
